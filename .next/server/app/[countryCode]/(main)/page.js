@@ -1,0 +1,17 @@
+const CHUNK_PUBLIC_PATH = "server/app/[countryCode]/(main)/page.js";
+const runtime = require("../../../chunks/ssr/[turbopack]_runtime.js");
+runtime.loadChunk("server/chunks/ssr/node_modules_next_dist_66bdff._.js");
+runtime.loadChunk("server/chunks/ssr/[root of the server]__ea5163._.js");
+runtime.loadChunk("server/chunks/ssr/src_app_89b09d._.js");
+runtime.loadChunk("server/chunks/ssr/src_app_67de58._.js");
+runtime.loadChunk("server/chunks/ssr/_4a27e8._.js");
+runtime.loadChunk("server/chunks/ssr/src_styles_2b5587._.css");
+runtime.loadChunk("server/chunks/ssr/node_modules_510cb2._.js");
+runtime.loadChunk("server/chunks/ssr/src_app_not-found_tsx_72a515._.js");
+runtime.loadChunk("server/chunks/ssr/[root of the server]__3dda89._.js");
+runtime.loadChunk("server/chunks/ssr/node_modules_8aa845._.js");
+runtime.loadChunk("server/chunks/ssr/src_249944._.js");
+runtime.loadChunk("server/chunks/ssr/node_modules_41a943._.js");
+runtime.loadChunk("server/chunks/ssr/_3322ed._.js");
+runtime.getOrInstantiateRuntimeModule("[project]/.next-internal/server/app/[countryCode]/(main)/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/lib/data/cart.ts [app-rsc] (ecmascript)\" } [app-rsc] (ecmascript)", CHUNK_PUBLIC_PATH);
+module.exports = runtime.getOrInstantiateRuntimeModule("[project]/node_modules/next/dist/esm/build/templates/app-page.js?page=/[countryCode]/(main)/page { METADATA_0 => \"[project]/src/app/twitter-image.jpg.mjs { IMAGE => \\\"[project]/src/app/twitter-image.jpg [app-rsc] (static)\\\" } [app-rsc] (structured image object, ecmascript, Next.js server component)\", METADATA_1 => \"[project]/src/app/opengraph-image.jpg.mjs { IMAGE => \\\"[project]/src/app/opengraph-image.jpg [app-rsc] (static)\\\" } [app-rsc] (structured image object, ecmascript, Next.js server component)\", MODULE_2 => \"[project]/src/app/layout.tsx [app-rsc] (ecmascript, Next.js server component)\", MODULE_3 => \"[project]/src/app/not-found.tsx [app-rsc] (ecmascript, Next.js server component)\", MODULE_4 => \"[project]/src/app/[countryCode]/(main)/layout.tsx [app-rsc] (ecmascript, Next.js server component)\", MODULE_5 => \"[project]/src/app/[countryCode]/(main)/not-found.tsx [app-rsc] (ecmascript, Next.js server component)\", MODULE_6 => \"[project]/src/app/[countryCode]/(main)/page.tsx [app-rsc] (ecmascript, Next.js server component)\" } [app-rsc] (ecmascript)", CHUNK_PUBLIC_PATH).exports;

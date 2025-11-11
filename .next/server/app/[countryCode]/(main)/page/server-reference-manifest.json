@@ -1,0 +1,192 @@
+{
+  "node": {
+    "4047d7f250e35763b4095c5266c279b6ded5a79b0c": {
+      "workers": {
+        "app/[countryCode]/(main)/page": {
+          "moduleId": "[project]/.next-internal/server/app/[countryCode]/(main)/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/lib/data/cart.ts [app-rsc] (ecmascript)\" } [app-rsc] (ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/[countryCode]/(main)/page": "rsc"
+      }
+    },
+    "402103384a200fec4ca2ef2f3421b390996baa1e7f": {
+      "workers": {
+        "app/[countryCode]/(main)/page": {
+          "moduleId": "[project]/.next-internal/server/app/[countryCode]/(main)/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/lib/data/cart.ts [app-rsc] (ecmascript)\" } [app-rsc] (ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/[countryCode]/(main)/page": "rsc"
+      }
+    },
+    "003abac2f9949eafbadcd3de2083f4c8b45b7d64ad": {
+      "workers": {
+        "app/[countryCode]/(main)/page": {
+          "moduleId": "[project]/.next-internal/server/app/[countryCode]/(main)/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/lib/data/cart.ts [app-rsc] (ecmascript)\" } [app-rsc] (ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/[countryCode]/(main)/page": "rsc"
+      }
+    },
+    "404f984293a8f60e4e588e26a29a413c275c495a17": {
+      "workers": {
+        "app/[countryCode]/(main)/page": {
+          "moduleId": "[project]/.next-internal/server/app/[countryCode]/(main)/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/lib/data/cart.ts [app-rsc] (ecmascript)\" } [app-rsc] (ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/[countryCode]/(main)/page": "rsc"
+      }
+    },
+    "405bc0d3eb68aed6c4ed2118cd86dfb4d3160443e9": {
+      "workers": {
+        "app/[countryCode]/(main)/page": {
+          "moduleId": "[project]/.next-internal/server/app/[countryCode]/(main)/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/lib/data/cart.ts [app-rsc] (ecmascript)\" } [app-rsc] (ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/[countryCode]/(main)/page": "rsc"
+      }
+    },
+    "40d6ec036f86a3ed15851f3bc9c171aca0c62ffbff": {
+      "workers": {
+        "app/[countryCode]/(main)/page": {
+          "moduleId": "[project]/.next-internal/server/app/[countryCode]/(main)/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/lib/data/cart.ts [app-rsc] (ecmascript)\" } [app-rsc] (ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/[countryCode]/(main)/page": "rsc"
+      }
+    },
+    "608aee495cc85a58ceaafbdc298ba7aeed029799ac": {
+      "workers": {
+        "app/[countryCode]/(main)/page": {
+          "moduleId": "[project]/.next-internal/server/app/[countryCode]/(main)/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/lib/data/cart.ts [app-rsc] (ecmascript)\" } [app-rsc] (ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/[countryCode]/(main)/page": "rsc"
+      }
+    },
+    "409dd3001228ea962c81f1b694b6c073200c94d647": {
+      "workers": {
+        "app/[countryCode]/(main)/page": {
+          "moduleId": "[project]/.next-internal/server/app/[countryCode]/(main)/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/lib/data/cart.ts [app-rsc] (ecmascript)\" } [app-rsc] (ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/[countryCode]/(main)/page": "rsc"
+      }
+    },
+    "40c01b9e426a71f9774d1a00cf70acd03f3c197173": {
+      "workers": {
+        "app/[countryCode]/(main)/page": {
+          "moduleId": "[project]/.next-internal/server/app/[countryCode]/(main)/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/lib/data/cart.ts [app-rsc] (ecmascript)\" } [app-rsc] (ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/[countryCode]/(main)/page": "rsc"
+      }
+    },
+    "60643cb7d7146f660764117092ce54fd45c46e1701": {
+      "workers": {
+        "app/[countryCode]/(main)/page": {
+          "moduleId": "[project]/.next-internal/server/app/[countryCode]/(main)/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/lib/data/cart.ts [app-rsc] (ecmascript)\" } [app-rsc] (ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/[countryCode]/(main)/page": "rsc"
+      }
+    },
+    "609f822710f0ddfe57ab41b973b4308a2e2800f5f8": {
+      "workers": {
+        "app/[countryCode]/(main)/page": {
+          "moduleId": "[project]/.next-internal/server/app/[countryCode]/(main)/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/lib/data/cart.ts [app-rsc] (ecmascript)\" } [app-rsc] (ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/[countryCode]/(main)/page": "rsc"
+      }
+    },
+    "00f29a66e7fecaa55f04418daf00e74e1a26807e99": {
+      "workers": {
+        "app/[countryCode]/(main)/page": {
+          "moduleId": "[project]/.next-internal/server/app/[countryCode]/(main)/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/lib/data/cart.ts [app-rsc] (ecmascript)\" } [app-rsc] (ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/[countryCode]/(main)/page": "rsc"
+      }
+    },
+    "40f7fab38fca5bb649d23ef192c8c37cbd646657af": {
+      "workers": {
+        "app/[countryCode]/(main)/page": {
+          "moduleId": "[project]/.next-internal/server/app/[countryCode]/(main)/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/lib/data/cart.ts [app-rsc] (ecmascript)\" } [app-rsc] (ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/[countryCode]/(main)/page": "rsc"
+      }
+    },
+    "60976a8fd5fa235c6840213fb05627259c82480d66": {
+      "workers": {
+        "app/[countryCode]/(main)/page": {
+          "moduleId": "[project]/.next-internal/server/app/[countryCode]/(main)/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/lib/data/cart.ts [app-rsc] (ecmascript)\" } [app-rsc] (ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/[countryCode]/(main)/page": "rsc"
+      }
+    },
+    "603156a0d7acb0f91d49ab41605149cdfba1961c09": {
+      "workers": {
+        "app/[countryCode]/(main)/page": {
+          "moduleId": "[project]/.next-internal/server/app/[countryCode]/(main)/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/lib/data/cart.ts [app-rsc] (ecmascript)\" } [app-rsc] (ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/[countryCode]/(main)/page": "rsc"
+      }
+    },
+    "406502743290dc6ce56278e714fca36bb72f1186a7": {
+      "workers": {
+        "app/[countryCode]/(main)/page": {
+          "moduleId": "[project]/.next-internal/server/app/[countryCode]/(main)/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/lib/data/cart.ts [app-rsc] (ecmascript)\" } [app-rsc] (ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/[countryCode]/(main)/page": "rsc"
+      }
+    },
+    "60299119670ad665638d5affabbaba036ce144879e": {
+      "workers": {
+        "app/[countryCode]/(main)/page": {
+          "moduleId": "[project]/.next-internal/server/app/[countryCode]/(main)/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/lib/data/cart.ts [app-rsc] (ecmascript)\" } [app-rsc] (ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/[countryCode]/(main)/page": "rsc"
+      }
+    }
+  },
+  "edge": {}
+}

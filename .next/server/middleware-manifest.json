@@ -1,0 +1,58 @@
+{
+  "version": 3,
+  "middleware": {
+    "/": {
+      "files": [
+        "server/edge/chunks/_38a11c._.js",
+        "server/edge/chunks/[root of the server]__d7df46._.js",
+        "server/edge/chunks/edge-wrapper_8e4542.js"
+      ],
+      "name": "middleware",
+      "page": "/",
+      "matchers": [
+        {
+          "regexp": "^(?:\\/(_next\\/data\\/[^/]{1,}))?(?:\\/((?!api|_next\\/static|favicon.ico).*))(\\\\.json)?[\\/#\\?]?$",
+          "originalSource": "/((?!api|_next/static|favicon.ico).*)"
+        }
+      ],
+      "wasm": [],
+      "assets": [
+        {
+          "name": "server/edge/chunks/_38a11c._.js.map",
+          "filePath": "server/edge/chunks/_38a11c._.js.map"
+        },
+        {
+          "name": "server/edge/chunks/_38a11c._.js",
+          "filePath": "server/edge/chunks/_38a11c._.js"
+        },
+        {
+          "name": "server/edge/chunks/[root of the server]__d7df46._.js.map",
+          "filePath": "server/edge/chunks/[root of the server]__d7df46._.js.map"
+        },
+        {
+          "name": "server/edge/chunks/[root of the server]__d7df46._.js",
+          "filePath": "server/edge/chunks/[root of the server]__d7df46._.js"
+        },
+        {
+          "name": "server/edge/chunks/edge-wrapper_8e4542.js.map",
+          "filePath": "server/edge/chunks/edge-wrapper_8e4542.js.map"
+        },
+        {
+          "name": "server/edge/chunks/edge-wrapper_8e4542.js",
+          "filePath": "server/edge/chunks/edge-wrapper_8e4542.js"
+        }
+      ],
+      "env": {
+        "__NEXT_BUILD_ID": "development",
+        "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "33HjvnVxxTc6jpEbAxtX4FVDVLpdPNuyO42zWIxb5Nw=",
+        "__NEXT_PREVIEW_MODE_ID": "59e360f5e5b34df361ad2d10918b8c28",
+        "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "17688b4213a78c0b6616a674b24e20b9971b8fa55d40f5084d6b6ad90b697967",
+        "__NEXT_PREVIEW_MODE_SIGNING_KEY": "669845c8c0555d323a98c6f137870d8680819667d33ac48385b5c3e1618306e8"
+      }
+    }
+  },
+  "sortedMiddleware": [
+    "/"
+  ],
+  "functions": {}
+}

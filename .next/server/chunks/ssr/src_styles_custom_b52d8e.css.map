@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack://[project]/src/styles/custom.css"],"sourcesContent":["/* .shadow-effect-2 {\r\n  position: relative;\r\n}\r\n.shadow-effect-2:before,\r\n.shadow-effect-2:after {\r\n  z-index: -1;\r\n  position: absolute;\r\n  content: '';\r\n  bottom: 15px;\r\n  left: 10px;\r\n  width: 50%;\r\n  top: 80%;\r\n  max-width: 300px;\r\n  background: #777;\r\n  -webkit-box-shadow: 0 15px 10px #777;\r\n  -moz-box-shadow: 0 15px 10px #777;\r\n  box-shadow: 0 15px 10px #777;\r\n  -webkit-transform: rotate(-3deg);\r\n  -moz-transform: rotate(-3deg);\r\n  -o-transform: rotate(-3deg);\r\n  -ms-transform: rotate(-3deg);\r\n  transform: rotate(-3deg);\r\n}\r\n.shadow-effect-2:after {\r\n  -webkit-transform: rotate(3deg);\r\n  -moz-transform: rotate(3deg);\r\n  -o-transform: rotate(3deg);\r\n  -ms-transform: rotate(3deg);\r\n  transform: rotate(3deg);\r\n  right: 10px;\r\n  left: auto;\r\n} */\r\n"],"names":[],"mappings":""}},
+    {"offset": {"line": 2, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

@@ -1,0 +1,631 @@
+/* [project]/src/styles/base.css [app-client] (css) */
+*, :before, :after {
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x: ;
+  --tw-pan-y: ;
+  --tw-pinch-zoom: ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position: ;
+  --tw-gradient-via-position: ;
+  --tw-gradient-to-position: ;
+  --tw-ordinal: ;
+  --tw-slashed-zero: ;
+  --tw-numeric-figure: ;
+  --tw-numeric-spacing: ;
+  --tw-numeric-fraction: ;
+  --tw-ring-inset: ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: #3b82f680;
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur: ;
+  --tw-brightness: ;
+  --tw-contrast: ;
+  --tw-grayscale: ;
+  --tw-hue-rotate: ;
+  --tw-invert: ;
+  --tw-saturate: ;
+  --tw-sepia: ;
+  --tw-drop-shadow: ;
+  --tw-backdrop-blur: ;
+  --tw-backdrop-brightness: ;
+  --tw-backdrop-contrast: ;
+  --tw-backdrop-grayscale: ;
+  --tw-backdrop-hue-rotate: ;
+  --tw-backdrop-invert: ;
+  --tw-backdrop-opacity: ;
+  --tw-backdrop-saturate: ;
+  --tw-backdrop-sepia: ;
+  --tw-contain-size: ;
+  --tw-contain-layout: ;
+  --tw-contain-paint: ;
+  --tw-contain-style: ;
+}
+
+::backdrop {
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x: ;
+  --tw-pan-y: ;
+  --tw-pinch-zoom: ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position: ;
+  --tw-gradient-via-position: ;
+  --tw-gradient-to-position: ;
+  --tw-ordinal: ;
+  --tw-slashed-zero: ;
+  --tw-numeric-figure: ;
+  --tw-numeric-spacing: ;
+  --tw-numeric-fraction: ;
+  --tw-ring-inset: ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: #3b82f680;
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur: ;
+  --tw-brightness: ;
+  --tw-contrast: ;
+  --tw-grayscale: ;
+  --tw-hue-rotate: ;
+  --tw-invert: ;
+  --tw-saturate: ;
+  --tw-sepia: ;
+  --tw-drop-shadow: ;
+  --tw-backdrop-blur: ;
+  --tw-backdrop-brightness: ;
+  --tw-backdrop-contrast: ;
+  --tw-backdrop-grayscale: ;
+  --tw-backdrop-hue-rotate: ;
+  --tw-backdrop-invert: ;
+  --tw-backdrop-opacity: ;
+  --tw-backdrop-saturate: ;
+  --tw-backdrop-sepia: ;
+  --tw-contain-size: ;
+  --tw-contain-layout: ;
+  --tw-contain-paint: ;
+  --tw-contain-style: ;
+}
+
+*, :before, :after {
+  box-sizing: border-box;
+  border-width: 0;
+  border-style: solid;
+  border-color: #e5e7eb;
+}
+
+:before, :after {
+  --tw-content: "";
+}
+
+html, :host {
+  line-height: 1.5;
+  -webkit-text-size-adjust: 100%;
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+  tab-size: 4;
+  font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Ubuntu, sans-serif;
+  font-feature-settings: normal;
+  font-variation-settings: normal;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  margin: 0;
+  line-height: inherit;
+}
+
+hr {
+  height: 0;
+  color: inherit;
+  border-top-width: 1px;
+}
+
+abbr:where([title]) {
+  -webkit-text-decoration: underline dotted;
+  text-decoration: underline dotted;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+b, strong {
+  font-weight: bolder;
+}
+
+code, kbd, samp, pre {
+  font-family: Roboto Mono, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
+  font-feature-settings: normal;
+  font-variation-settings: normal;
+  font-size: 1em;
+}
+
+small {
+  font-size: 80%;
+}
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -.25em;
+}
+
+sup {
+  top: -.5em;
+}
+
+table {
+  text-indent: 0;
+  border-color: inherit;
+  border-collapse: collapse;
+}
+
+button, input, optgroup, select, textarea {
+  font-family: inherit;
+  font-feature-settings: inherit;
+  font-variation-settings: inherit;
+  font-size: 100%;
+  font-weight: inherit;
+  line-height: inherit;
+  letter-spacing: inherit;
+  color: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+button, select {
+  text-transform: none;
+}
+
+button, input:where([type="button"]), input:where([type="reset"]), input:where([type="submit"]) {
+  -webkit-appearance: button;
+  background-color: #0000;
+  background-image: none;
+}
+
+:-moz-focusring {
+  outline: auto;
+}
+
+:-moz-ui-invalid {
+  box-shadow: none;
+}
+
+progress {
+  vertical-align: baseline;
+}
+
+::-webkit-inner-spin-button, ::-webkit-outer-spin-button {
+  height: auto;
+}
+
+[type="search"] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+}
+
+::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+
+summary {
+  display: list-item;
+}
+
+blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
+  margin: 0;
+}
+
+fieldset {
+  margin: 0;
+  padding: 0;
+}
+
+legend {
+  padding: 0;
+}
+
+ol, ul, menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+dialog {
+  padding: 0;
+}
+
+textarea {
+  resize: vertical;
+}
+
+input::-moz-placeholder, textarea::-moz-placeholder {
+  opacity: 1;
+  color: #9ca3af;
+}
+
+input::placeholder, textarea::placeholder {
+  opacity: 1;
+  color: #9ca3af;
+}
+
+button, [role="button"] {
+  cursor: pointer;
+}
+
+:disabled {
+  cursor: default;
+}
+
+img, svg, video, canvas, audio, iframe, embed, object {
+  display: block;
+  vertical-align: middle;
+}
+
+img, video {
+  max-width: 100%;
+  height: auto;
+}
+
+[hidden]:where(:not([hidden="until-found"])) {
+  display: none;
+}
+
+* {
+  border-color: var(--border-base);
+}
+
+:root {
+  --tag-neutral-border: #e4e4e7;
+  --tag-neutral-icon: #a1a1aa;
+  --bg-switch-off-hover: #d4d4d8;
+  --border-menu-bot: #fff;
+  --border-menu-top: #e4e4e7;
+  --bg-subtle-hover: #f4f4f5;
+  --contrast-fg-primary: #ffffffe0;
+  --bg-switch-off: #e4e4e7;
+  --contrast-bg-base-pressed: #3f3f46;
+  --bg-field-component-hover: #fafafa;
+  --bg-base-pressed: #e4e4e7;
+  --tag-neutral-text: #52525b;
+  --tag-red-text: #9f1239;
+  --contrast-bg-base: #18181b;
+  --border-strong: #d4d4d8;
+  --contrast-border-base: #ffffff26;
+  --bg-field: #fafafa;
+  --tag-blue-text: #1e40af;
+  --button-inverted-pressed: #52525b;
+  --border-interactive: #3b82f6;
+  --bg-base-hover: #f4f4f5;
+  --contrast-bg-subtle: #27272a;
+  --bg-highlight: #eff6ff;
+  --contrast-fg-secondary: #ffffff8f;
+  --tag-red-bg: #ffe4e6;
+  --button-transparent: #fff0;
+  --button-danger-pressed: #9f1239;
+  --fg-on-color: #fff;
+  --button-inverted-hover: #3f3f46;
+  --bg-field-component: #fff;
+  --tag-orange-text: #9a3412;
+  --tag-green-icon: #10b981;
+  --border-base: #e4e4e7;
+  --bg-base: #fff;
+  --tag-orange-border: #fed7aa;
+  --tag-red-border: #fecdd3;
+  --tag-green-border: #a7f3d0;
+  --tag-green-text: #065f46;
+  --button-neutral: #fff;
+  --tag-blue-border: #bfdbfe;
+  --fg-interactive-hover: #2563eb;
+  --tag-orange-icon: #f97316;
+  --button-neutral-hover: #f4f4f5;
+  --fg-interactive: #3b82f6;
+  --bg-component-pressed: #e4e4e7;
+  --tag-purple-bg: #ede9fe;
+  --contrast-bg-base-hover: #27272a;
+  --bg-component: #fafafa;
+  --bg-subtle: #fafafa;
+  --tag-purple-text: #5b21b6;
+  --contrast-border-bot: #ffffff1a;
+  --button-inverted: #27272a;
+  --tag-red-icon: #f43f5e;
+  --button-transparent-hover: #f4f4f5;
+  --button-neutral-pressed: #e4e4e7;
+  --tag-purple-icon: #a78bfa;
+  --bg-field-hover: #f4f4f5;
+  --fg-on-inverted: #fff;
+  --bg-interactive: #3b82f6;
+  --border-danger: #be123c;
+  --button-transparent-pressed: #e4e4e7;
+  --tag-purple-border: #ddd6fe;
+  --bg-highlight-hover: #dbeafe;
+  --border-error: #e11d48;
+  --button-danger: #e11d48;
+  --tag-blue-bg: #dbeafe;
+  --border-transparent: #fff0;
+  --button-danger-hover: #be123c;
+  --bg-subtle-pressed: #e4e4e7;
+  --fg-error: #e11d48;
+  --bg-component-hover: #f4f4f5;
+  --bg-disabled: #f4f4f5;
+  --tag-blue-icon: #60a5fa;
+  --fg-subtle: #52525b;
+  --tag-orange-bg-hover: #fed7aa;
+  --tag-green-bg-hover: #a7f3d0;
+  --tag-red-bg-hover: #fecdd3;
+  --tag-purple-bg-hover: #ddd6fe;
+  --tag-neutral-bg-hover: #e4e4e7;
+  --tag-blue-bg-hover: #bfdbfe;
+  --tag-green-bg: #d1fae5;
+  --tag-neutral-bg: #f4f4f5;
+  --tag-orange-bg: #ffedd5;
+  --fg-base: #18181b;
+  --contrast-border-top: #18181b;
+  --bg-overlay: #18181b66;
+  --fg-disabled: #a1a1aa;
+  --fg-muted: #71717a;
+  --alpha-250: #18181b1a;
+  --alpha-400: #18181b3d;
+  --buttons-danger-focus: 0px .75px 0px 0px #fff3 inset, 0px 1px 2px 0px #be123c66, 0px 0px 0px 1px #be123c, 0px 0px 0px 2px #fff, 0px 0px 0px 4px #3b82f699;
+  --details-contrast-on-bg-interactive: 0px 1px 2px 0px #1e3a8a99;
+  --borders-error: 0px 0px 0px 1px #e11d48, 0px 0px 0px 3px #e11d4826;
+  --borders-focus: 0px 0px 0px 1px #fff, 0px 0px 0px 3px #3b82f699;
+  --buttons-danger: 0px .75px 0px 0px #fff3 inset, 0px 1px 2px 0px #be123c66, 0px 0px 0px 1px #be123c;
+  --buttons-inverted-focus: 0px .75px 0px 0px #fff3 inset, 0px 1px 2px 0px #0006, 0px 0px 0px 1px #18181b, 0px 0px 0px 2px #fff, 0px 0px 0px 4px #3b82f699;
+  --elevation-card-hover: 0px 0px 0px 1px #00000014, 0px 1px 2px -1px #00000014, 0px 2px 8px 0px #0000001a;
+  --details-switch-handle: 0px 0px 2px 1px #fff inset, 0px 1px 0px 0px #fff inset, 0px 0px 0px .5px #00000005, 0px 5px 4px 0px #00000005, 0px 3px 3px 0px #0000000a, 0px 1px 2px 0px #0000001f, 0px 0px 1px 0px #00000014;
+  --buttons-neutral: 0px 1px 2px 0px #0000001f, 0px 0px 0px 1px #00000014;
+  --borders-base: 0px 1px 2px 0px #0000001f, 0px 0px 0px 1px #00000014;
+  --elevation-card-rest: 0px 0px 0px 1px #00000014, 0px 1px 2px -1px #00000014, 0px 2px 4px 0px #0000000a;
+  --buttons-neutral-focus: 0px 1px 2px 0px #0000001f, 0px 0px 0px 1px #00000014, 0px 0px 0px 2px #fff, 0px 0px 0px 4px #3b82f699;
+  --details-switch-background-focus: 0px 0px 0px 1px #fff, 0px 0px 0px 3px #3b82f699, 0px 1px 1px 0px #0000000a inset, 0px 2px 4px 0px #0000000a inset, 0px 0px 0px .75px #0000000f inset, 0px 0px 8px 0px #00000005 inset, 0px 2px 4px 0px #0000000a;
+  --details-switch-background: 0px 1px 1px 0px #0000000a inset, 0px 2px 4px 0px #0000000a inset, 0px 0px 0px .75px #0000000f inset, 0px 0px 8px 0px #00000005 inset, 0px 2px 4px 0px #0000000a;
+  --elevation-flyout: 0px 0px 0px 1px #00000014, 0px 4px 8px 0px #00000014, 0px 8px 16px 0px #00000014;
+  --elevation-tooltip: 0px 0px 0px 1px #00000014, 0px 2px 4px 0px #00000014, 0px 4px 8px 0px #00000014;
+  --elevation-modal: 0px 0px 0px 1px #fff inset, 0px 0px 0px 1.5px #e4e4e799 inset, 0px 0px 0px 1px #00000014, 0px 8px 16px 0px #00000014, 0px 16px 32px 0px #00000014;
+  --elevation-code-block: 0px 0px 0px 1px #18181b inset, 0px 0px 0px 1.5px #fff3 inset;
+  --buttons-inverted: 0px .75px 0px 0px #fff3 inset, 0px 1px 2px 0px #0006, 0px 0px 0px 1px #18181b;
+  --elevation-commandbar: 0px 0px 0px .75px #27272a inset, 0px 0px 0px 1.25px #ffffff4d inset, 0px 8px 16px 0px #00000014, 0px 16px 32px 0px #00000014;
+  --borders-interactive-with-focus: 0px 1px 2px 0px #1e3a8a80, 0px 0px 0px 1px #2563eb, 0px 0px 0px 2px #fff, 0px 0px 0px 4px #2563eb99;
+  --borders-interactive-with-shadow: 0px 1px 2px 0px #1e3a8a80, 0px 0px 0px 1px #2563eb;
+  --borders-interactive-with-active: 0px 0px 0px 4px #2563eb33, 0px 0px 0px 1px #2563eb;
+}
+
+.dark {
+  --button-danger-pressed: #e11d48;
+  --bg-base-pressed: #3f3f46;
+  --bg-component-hover: #ffffff1a;
+  --border-interactive: #60a5fa;
+  --button-neutral: #ffffff0a;
+  --tag-orange-border: #7c2d12;
+  --tag-blue-text: #93c5fd;
+  --bg-highlight: #172554;
+  --tag-neutral-icon: #71717a;
+  --bg-switch-off-hover: #52525b;
+  --fg-on-color: #fff;
+  --button-inverted-pressed: #a1a1aa;
+  --fg-interactive-hover: #93c5fd;
+  --fg-error: #fb7185;
+  --bg-switch-off: #3f3f46;
+  --border-strong: #ffffff29;
+  --border-error: #fb7185;
+  --fg-subtle: #a1a1aa;
+  --bg-highlight-hover: #1e3a8a;
+  --button-inverted: #52525b;
+  --tag-orange-text: #fdba74;
+  --fg-base: #f4f4f5;
+  --fg-disabled: #52525b;
+  --button-danger: #9f1239;
+  --tag-neutral-border: #ffffff0f;
+  --tag-blue-border: #1e3a8a;
+  --tag-neutral-text: #d4d4d8;
+  --tag-purple-border: #5b21b6;
+  --tag-green-text: #34d399;
+  --button-inverted-hover: #71717a;
+  --bg-component-pressed: #ffffff29;
+  --contrast-border-bot: #ffffff14;
+  --tag-blue-icon: #60a5fa;
+  --bg-field: #ffffff0a;
+  --tag-neutral-bg: #ffffff14;
+  --tag-green-border: #064e3b;
+  --tag-red-icon: #fb7185;
+  --tag-red-text: #fda4af;
+  --tag-purple-icon: #a78bfa;
+  --bg-interactive: #60a5fa;
+  --bg-field-hover: #ffffff14;
+  --border-transparent: #fff0;
+  --tag-orange-icon: #fb923c;
+  --tag-purple-bg: #2e1065;
+  --bg-base-hover: #27272a;
+  --tag-blue-bg: #172554;
+  --tag-green-bg: #022c22;
+  --tag-purple-text: #c4b5fd;
+  --tag-red-border: #881337;
+  --border-danger: #be123c;
+  --tag-green-icon: #10b981;
+  --tag-red-bg: #4c0519;
+  --fg-interactive: #60a5fa;
+  --tag-orange-bg: #431407;
+  --button-danger-hover: #be123c;
+  --bg-component: #27272a;
+  --bg-disabled: #27272a;
+  --button-transparent: #fff0;
+  --border-menu-bot: #ffffff14;
+  --tag-purple-bg-hover: #5b21b6;
+  --tag-orange-bg-hover: #7c2d12;
+  --tag-blue-bg-hover: #1e3a8a;
+  --tag-red-bg-hover: #881337;
+  --tag-green-bg-hover: #064e3b;
+  --border-menu-top: #212124;
+  --bg-base: #212124;
+  --contrast-border-top: #212124;
+  --bg-field-component: #212124;
+  --bg-subtle-hover: #212124;
+  --bg-subtle: #18181b;
+  --fg-on-inverted: #18181b;
+  --bg-overlay: #18181bb8;
+  --button-transparent-hover: #ffffff14;
+  --contrast-fg-secondary: #ffffff8f;
+  --contrast-border-base: #ffffff29;
+  --contrast-bg-base-pressed: #52525b;
+  --button-neutral-pressed: #ffffff1f;
+  --border-base: #ffffff14;
+  --contrast-fg-primary: #ffffffe0;
+  --button-neutral-hover: #ffffff14;
+  --contrast-bg-base: #27272a;
+  --tag-neutral-bg-hover: #ffffff1f;
+  --contrast-bg-subtle: #ffffff0a;
+  --contrast-bg-base-hover: #3f3f46;
+  --bg-field-component-hover: #27272a;
+  --bg-subtle-pressed: #27272a;
+  --button-transparent-pressed: #ffffff1f;
+  --fg-muted: #71717a;
+  --alpha-400: #ffffff3d;
+  --alpha-250: #ffffff1a;
+  --details-contrast-on-bg-interactive: 0px 1px 2px 0px #1e3a8a99;
+  --details-switch-handle: 0px 0px 2px 1px #fff inset, 0px 1px 0px 0px #fff inset, 0px 0px 0px .5px #00000029, 0px 5px 4px 0px #0000001a, 0px 3px 3px 0px #0000001a, 0px 1px 2px 0px #0000001a, 0px 0px 1px 0px #0000001a;
+  --borders-interactive-with-active: 0px 0px 0px 1px #60a5fa, 0px 0px 0px 4px #3b82f640;
+  --borders-focus: 0px 0px 0px 1px #18181b, 0px 0px 0px 3px #60a5facc;
+  --details-switch-background-focus: 0px 0px 0px 1px #18181b, 0px 0px 0px 3px #60a5facc, 0px 1px 1px 0px #0000001a inset, 0px 2px 4px 0px #0000001a inset, 0px 0px 0px .75px #ffffff1f inset, 0px 0px 8px 0px #0000001a inset;
+  --buttons-danger: 0px -1px 0px 0px #ffffff29, 0px 0px 0px 1px #ffffff1f, 0px 0px 0px 1px #9f1239, 0px 0px 1px 1.5px #0000003d, 0px 2px 2px 0px #0000003d;
+  --buttons-danger-focus: 0px -1px 0px 0px #ffffff29, 0px 0px 0px 1px #ffffff1f, 0px 0px 0px 1px #9f1239, 0px 0px 0px 2px #18181b, 0px 0px 0px 4px #60a5facc;
+  --details-switch-background: 0px 1px 1px 0px #0000001a inset, 0px 2px 4px 0px #0000001a inset, 0px 0px 0px .75px #ffffff1f inset, 0px 0px 8px 0px #0000001a inset;
+  --buttons-inverted-focus: 0px -1px 0px 0px #ffffff1f, 0px 0px 0px 1px #ffffff1f, 0px 0px 0px 1px #52525b, 0px 0px 0px 2px #18181b, 0px 0px 0px 4px #60a5facc;
+  --elevation-flyout: 0px -1px 0px 0px #ffffff0a, 0px 0px 0px 1px #ffffff1a, 0px 4px 8px 0px #00000052, 0px 8px 16px 0px #00000052;
+  --borders-error: 0px 0px 0px 1px #f43f5e, 0px 0px 0px 3px #e11d4840;
+  --buttons-inverted: 0px -1px 0px 0px #ffffff1f, 0px 0px 0px 1px #ffffff1a, 0px 0px 0px 1px #52525b, 0px 0px 1px 1.5px #0000003d, 0px 2px 2px 0px #0000003d;
+  --borders-base: 0px -1px 0px 0px #ffffff0f, 0px 0px 0px 1px #ffffff0f, 0px 0px 0px 1px #27272a, 0px 0px 1px 1.5px #0000003d, 0px 2px 2px 0px #0000003d;
+  --elevation-card-hover: 0px -1px 0px 0px #ffffff0f, 0px 0px 0px 1px #ffffff0f, 0px 0px 0px 1px #27272a, 0px 1px 4px 0px #0000007a, 0px 2px 8px 0px #0000007a;
+  --elevation-card-rest: 0px -1px 0px 0px #ffffff0f, 0px 0px 0px 1px #ffffff0f, 0px 0px 0px 1px #27272a, 0px 1px 2px 0px #00000052, 0px 2px 4px 0px #00000052;
+  --buttons-neutral: 0px -1px 0px 0px #ffffff0f, 0px 0px 0px 1px #ffffff0f, 0px 0px 0px 1px #27272a, 0px 0px 1px 1.5px #0000003d, 0px 2px 2px 0px #0000003d;
+  --elevation-code-block: 0px -1px 0px 0px #ffffff0f, 0px 0px 0px 1px #ffffff0f, 0px 0px 0px 1px #27272a, 0px 1px 2px 0px #00000052, 0px 2px 4px 0px #00000052;
+  --buttons-neutral-focus: 0px -1px 0px 0px #ffffff0f, 0px 0px 0px 1px #ffffff0f, 0px 0px 0px 1px #27272a, 0px 0px 0px 2px #18181b, 0px 0px 0px 4px #60a5facc;
+  --elevation-modal: 0px 0px 0px 1px #18181b inset, 0px 0px 0px 1.5px #ffffff0f inset, 0px -1px 0px 0px #ffffff0a, 0px 0px 0px 1px #ffffff1a, 0px 4px 8px 0px #00000052, 0px 8px 16px 0px #00000052;
+  --elevation-commandbar: 0px 0px 0px .75px #18181b inset, 0px 0px 0px 1.25px #ffffff1a inset, 0px 4px 8px 0px #00000052, 0px 8px 16px 0px #00000052;
+  --elevation-tooltip: 0px -1px 0px 0px #ffffff0a, 0px 2px 4px 0px #00000052, 0px 0px 0px 1px #ffffff1a, 0px 4px 8px 0px #00000052;
+  --borders-interactive-with-focus: 0px -1px 2px 0px #dbeafe80, 0px 0px 0px 1px #60a5fa, 0px 0px 0px 2px #18181b, 0px 0px 0px 4px #60a5facc;
+  --borders-interactive-with-shadow: 0px -1px 2px 0px #dbeafe80, 0px 0px 0px 1px #60a5fa;
+}
+
+:root {
+  --background: 0 0% 100%;
+  --foreground: 240 10% 3.9%;
+  --card: 0 0% 100%;
+  --card-foreground: 240 10% 3.9%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 240 10% 3.9%;
+  --primary: 142.1 76.2% 36.3%;
+  --primary-foreground: 355.7 100% 97.3%;
+  --secondary: 240 4.8% 95.9%;
+  --secondary-foreground: 240 5.9% 10%;
+  --secondary-subtle: 0 5% 31.5%;
+  --muted: 240 4.8% 95.9%;
+  --muted-foreground: 240 3.8% 46.1%;
+  --accent: 240 4.8% 95.9%;
+  --accent-foreground: 240 5.9% 10%;
+  --destructive: 0 84.2% 60.2%;
+  --destructive-foreground: 0 0% 98%;
+  --border: 240 5.88% 90% / 100%;
+  --border-subtle: 240 5.9% 90% / 40%;
+  --input: 240 5.9% 90%;
+  --ring: 142.1 76.2% 36.3%;
+  --radius: .5rem;
+  --sidebar-background: 0 0% 98%;
+  --sidebar-foreground: 240 5.3% 26.1%;
+  --sidebar-primary: 240 5.9% 10%;
+  --sidebar-primary-foreground: 0 0% 98%;
+  --sidebar-accent: 240 4.8% 95.9%;
+  --sidebar-accent-foreground: 240 5.9% 10%;
+  --sidebar-border: 220 13% 91%;
+  --sidebar-ring: 217.2 91.2% 59.8%;
+  --shadow-topToBottom-sm: 0 .125rem .25rem -.125rem;
+  --shadow-topToBottom-md: 0 .25rem .5rem -.25rem;
+  --shadow-topToBottom-lg: 0 .5rem 1rem -.5rem;
+  --shadow-topToBottom-xl: 0 1rem 1.5rem -.75rem;
+  --shadow-bottomToTop-sm: 0 -.125rem .25rem -.125rem;
+  --shadow-bottomToTop-md: 0 -.25rem .5rem -.25rem;
+  --shadow-bottomToTop-lg: 0 -.5rem 1rem -.5rem;
+  --shadow-bottomToTop-xl: 0 -1rem 1.5rem -.75rem;
+  --shadow-color: 0 0% 0% / 7%;
+}
+
+.dark {
+  --background: 240 5% 12%;
+  --foreground: 0 0% 95%;
+  --card: 240 5.88% 10%;
+  --card-foreground: 0 0% 95%;
+  --popover: 0 0% 9%;
+  --popover-foreground: 0 0% 95%;
+  --primary: 142.1 70.6% 45.3%;
+  --primary-foreground: 144.9 80.4% 10%;
+  --secondary: 240 3.7% 15.9%;
+  --secondary-foreground: 0 0% 98%;
+  --secondary-subtle: 240 4.8% 65%;
+  --muted: 0 0% 15%;
+  --muted-foreground: 240 5% 64.9%;
+  --accent: 12 6.5% 15.1%;
+  --accent-foreground: 0 0% 98%;
+  --destructive: 0 62.8% 30.6%;
+  --destructive-foreground: 0 85.7% 97.3%;
+  --border: 0 0% 100% / 7.84%;
+  --border-subtle: 0 0% 16% / 70%;
+  --input: 240 3.7% 15.9%;
+  --ring: 142.4 71.8% 29.2%;
+  --sidebar-background: 240 5.9% 10%;
+  --sidebar-foreground: 240 4.8% 95.9%;
+  --sidebar-primary: 224.3 76.3% 48%;
+  --sidebar-primary-foreground: 0 0% 100%;
+  --sidebar-accent: 240 3.7% 15.9%;
+  --sidebar-accent-foreground: 240 4.8% 95.9%;
+  --sidebar-border: 240 3.7% 15.9%;
+  --sidebar-ring: 217.2 91.2% 59.8%;
+  --shadow-overlay-color: 0 0% 0% / 64%;
+}
+
+* {
+  border-color: hsl(var(--border));
+}
+
+body {
+  background-color: hsl(var(--background));
+  color: hsl(var(--foreground));
+}
+
+/*# sourceMappingURL=src_styles_base_b52d8e.css.map*/
